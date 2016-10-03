@@ -1,0 +1,45 @@
+.main {
+
+  section {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+  table {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+    &.nominees {
+
+      th,
+      td {
+        padding: 1vw;
+      }
+    }
+
+    img {
+      width: 100%;
+    }
+
+    tr {
+
+      th {
+        text-align: left;
+        font-size: 22px;
+        line-height: 1;
+        color: $base-red;
+      }
+
+      td {
+        width: 20vw;
+        line-height: 1;
+
+        &:not(:first-of-type) {
+         text-align: center;
+        }
+      }
+    }
+  }
+}
