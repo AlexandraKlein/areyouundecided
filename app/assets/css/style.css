@@ -407,11 +407,12 @@ th {
   .main table.nominees th,
   .main table.nominees td {
     padding: 1vw; }
+  .main table:not(.nominees) tr:first-of-type th {
+    font-size: 22px; }
   .main table img {
     width: 100%; }
   .main table tr th {
     text-align: left;
-    font-size: 22px;
     line-height: 1;
     color: #963c3c; }
   .main table tr td {

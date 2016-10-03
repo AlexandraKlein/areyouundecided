@@ -19,6 +19,14 @@
       }
     }
 
+    &:not(.nominees) {
+      tr:first-of-type {
+        th {
+          font-size: 22px;
+        }
+      }
+    }
+
     img {
       width: 100%;
     }
@@ -27,7 +35,6 @@
 
       th {
         text-align: left;
-        font-size: 22px;
         line-height: 1;
         color: $base-red;
       }
