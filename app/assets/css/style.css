@@ -404,6 +404,8 @@ th {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  .main table.nominees h1 {
+    text-align: center; }
   .main table.nominees th,
   .main table.nominees td {
     padding: 1vw; }
@@ -412,14 +414,14 @@ th {
   .main table img {
     width: 100%; }
   .main table tr th {
+    width: 20vw;
     text-align: left;
     line-height: 1;
     color: #963c3c; }
   .main table tr td {
     width: 20vw;
-    line-height: 1; }
-    .main table tr td:not(:first-of-type) {
-      text-align: center; }
+    line-height: 1;
+    padding-left: 5vw; }
 
 @font-face {
   font-family: 'Font-Name';

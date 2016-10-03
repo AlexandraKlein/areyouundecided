@@ -13,6 +13,10 @@
 
     &.nominees {
 
+      h1 {
+        text-align: center;
+      }
+
       th,
       td {
         padding: 1vw;
@@ -34,6 +38,7 @@
     tr {
 
       th {
+        width: 20vw;
         text-align: left;
         line-height: 1;
         color: $base-red;
@@ -42,10 +47,7 @@
       td {
         width: 20vw;
         line-height: 1;
-
-        &:not(:first-of-type) {
-         text-align: center;
-        }
+        padding-left: 5vw;
       }
     }
   }
