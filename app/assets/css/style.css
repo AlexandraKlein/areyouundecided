@@ -500,6 +500,33 @@ th {
         line-height: 1;
         padding-left: 5vw; }
 
+.floating {
+  animation-name: floating;
+  -webkit-animation-name: floating;
+  animation-duration: .5s;
+  -webkit-animation-duration: .5s;
+  animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite; }
+
+@keyframes floating {
+  0% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%); }
+  50% {
+    -webkit-transform: translateY(15%);
+            transform: translateY(15%); }
+  100% {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%); } }
+
+@-webkit-keyframes floating {
+  0% {
+    -webkit-transform: translateY(0%); }
+  50% {
+    -webkit-transform: translateY(15%); }
+  100% {
+    -webkit-transform: translateY(0%); } }
+
 @font-face {
   font-family: 'Font-Name';
   src: url("../fonts/font-name.eot");
