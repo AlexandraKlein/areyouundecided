@@ -40,6 +40,7 @@
 
       tr {
         background-color: $base;
+        position: relative;
 
         img {
           width: 2vw;
@@ -62,6 +63,60 @@
 
       td {
         padding-left: 7vw;
+
+        &.citation {
+          position: relative;
+          width: 2vw;
+          padding: 0;
+          a {
+            font-family: 'fabfeltscriptbold';
+            font-size: 1.5vw;
+            text-decoration: none;
+            width: 2vw;
+            height: 2vw;
+            line-height: 2vw;
+            color: #fff;
+            background-color: $base;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+            right: -4vw;
+            text-align: center;
+
+            span {
+              font-family: 'fabfeltscriptbold';
+              color: $base-blue;
+              font-size: 1.2vw;
+              position: absolute;
+              left: 50%;
+              -webkit-transform: translateX(-50%);
+              -moz-transform: translateX(-50%);
+              -ms-transform: translateX(-50%);
+              -o-transform: translateX(-50%);
+              transform: translateX(-50%);
+              top: -1.7vw;
+              opacity: 0;
+              -webkit-transition: opacity .25s;
+              -moz-transition: opacity .25s;
+              -ms-transition: opacity .25s;
+              -o-transition: opacity .25s;
+              transition: opacity .25s;
+            }
+
+            &:hover {
+              span {
+                opacity: 1;
+              }
+            }
+          }
+        }
       }
     }
 
