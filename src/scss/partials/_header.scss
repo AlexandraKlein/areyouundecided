@@ -2,14 +2,17 @@
 
 }
 .logo {
-
+    margin-left: 9vw;
     h1 {
         font-family: 'fabfeltscriptbold';
-        margin-left: 9vw;
         font-size: 5vw;
-        //background: $base;
-        //width: 42vw;
-        //padding-left: 2.2vw;
-        //border-radius: 4vw;
+        margin-bottom: 0;
+        line-height: 1;
+    }
+
+    h3 {
+        margin-top: 0;
+        font-size: 2vw;
+        font-weight: normal;
     }
 }

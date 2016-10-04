@@ -386,10 +386,17 @@ td,
 th {
   padding: 0; }
 
-.logo h1 {
-  font-family: 'fabfeltscriptbold';
-  margin-left: 9vw;
-  font-size: 5vw; }
+.logo {
+  margin-left: 9vw; }
+  .logo h1 {
+    font-family: 'fabfeltscriptbold';
+    font-size: 5vw;
+    margin-bottom: 0;
+    line-height: 1; }
+  .logo h3 {
+    margin-top: 0;
+    font-size: 2vw;
+    font-weight: normal; }
 
 .nav ul {
   list-style: none; }
@@ -432,7 +439,7 @@ th {
       background-color: #d9e5ec; }
       .main table:not(.nominees) tr img {
         width: 2vw;
-        margin-left: 1vw; }
+        margin-left: 4vw; }
       .main table:not(.nominees) tr:nth-of-type(even) {
         background-color: #fefeff; }
     .main table:not(.nominees) th,
@@ -464,22 +471,22 @@ th {
   font-style: normal; }
 
 ::-moz-selection {
-  background: #333;
+  background: #963c3c;
   color: #fff;
   text-shadow: none; }
 
 ::selection {
-  background: #333;
+  background: #963c3c;
   color: #fff;
   text-shadow: none; }
 
 ::-moz-selection {
-  background: #333;
+  background: #963c3c;
   color: #fff;
   text-shadow: none; }
 
 ::-webkit-selection {
-  background: #333;
+  background: #963c3c;
   color: #fff;
   text-shadow: none; }
 
