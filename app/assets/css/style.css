@@ -527,6 +527,19 @@ th {
   100% {
     -webkit-transform: translateY(0%); } }
 
+.footer a {
+  font-family: 'fabfeltscriptbold';
+  font-size: 4vw;
+  margin-bottom: 3vw;
+  text-align: center;
+  display: block;
+  color: #3a5d72;
+  font-weight: bold;
+  text-decoration: none; }
+  .footer a:hover {
+    color: #963c3c;
+    text-decoration: underline; }
+
 @font-face {
   font-family: 'Font-Name';
   src: url("../fonts/font-name.eot");

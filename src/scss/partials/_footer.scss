@@ -1,3 +1,16 @@
 .footer {
-
+    a {
+        font-family: 'fabfeltscriptbold';
+        font-size: 4vw;
+        margin-bottom: 3vw;
+        text-align: center;
+        display: block;
+        color: $base-blue;
+        font-weight: bold;
+        text-decoration: none;
+        &:hover {
+            color: $base-red;
+            text-decoration: underline;
+        }
+    }
 }
