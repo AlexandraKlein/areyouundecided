@@ -62,6 +62,7 @@
       }
 
       td {
+        position: relative;
         padding-left: 7vw;
 
         &.citation {
@@ -89,6 +90,10 @@
             transform: translateY(-50%);
             right: -4vw;
             text-align: center;
+
+            &.two {
+              right: -6.3vw;
+            }
 
             span {
               font-family: 'fabfeltscriptbold';

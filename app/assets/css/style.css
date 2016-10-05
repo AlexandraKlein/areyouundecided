@@ -450,6 +450,7 @@ th {
     .main table:not(.nominees) th {
       padding-left: 1vw; }
     .main table:not(.nominees) td {
+      position: relative;
       padding-left: 7vw; }
       .main table:not(.nominees) td.citation {
         position: relative;
@@ -472,6 +473,8 @@ th {
           transform: translateY(-50%);
           right: -4vw;
           text-align: center; }
+          .main table:not(.nominees) td.citation a.two {
+            right: -6.3vw; }
           .main table:not(.nominees) td.citation a span {
             font-family: 'fabfeltscriptbold';
             color: #3a5d72;
