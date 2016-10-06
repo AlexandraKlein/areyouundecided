@@ -512,6 +512,12 @@ th {
       color: #963c3c; }
   .main #lightbox p {
     display: none; }
+  .main .fb_iframe_widget {
+    display: block;
+    width: 75vw;
+    margin: 60px auto; }
+  .main .fb-comments iframe {
+    width: 75vw !important; }
 
 .floating {
   animation-name: floating;

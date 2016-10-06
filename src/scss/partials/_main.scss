@@ -163,6 +163,18 @@
       display: none;
     }
   }
+
+  .fb_iframe_widget {
+    display: block;
+    width: 75vw;
+    margin: 60px auto;
+  }
+
+  .fb-comments {
+    iframe {
+      width: 75vw !important;
+    }
+  }
 }
 
 

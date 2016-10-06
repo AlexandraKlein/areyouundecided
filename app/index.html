@@ -44,7 +44,31 @@
     <script src="assets/components/modernizr/modernizr.js"></script>
   </head>
   <body>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1079815998805655',
+          xfbml      : true,
+          version    : 'v2.8'
+        });
+      };
 
+      (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8&appId=624186054350848";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
     <header class="header" role="banner">
       <div class="logo">
         <h1>Are You Undecided?</h1>
@@ -239,7 +263,7 @@
           <td><img src="assets/img/thumbs-up.svg" alt="supports"/></td>
           <td><img src="assets/img/thumbs-up.svg" alt="supports"/></td>
           <td class="citation">
-            <a href="http://2016election.procon.org/view.answers.election.php?questionID=002083" target="_blank">S<span>Source</span></a>
+            <a href="https://www.isidewith.com/candidate-guide/issues/social/women-in-combat" target="_blank">S<span>Source</span></a>
           </td>
         </tr>
         <tr>
@@ -370,8 +394,15 @@
       <div id="lightbox">
         <p>You may be wondering why we did not include Jill Stein in this chart. To begin with, she and Hillary Clinton agree on most of the issues on the chart. Stein is included in all the source links, so you can check for yourself. The only issues on this list where Stein and Clinton disagree are as follows - Both want to expand Obamacare but Stein wants to go directly to Medicare For All. Stein opposes preventing Russia from bombing the families of Aleppo. She is more aggressive on fracking, though both candidates are calling for strict regulations and a move towards green energy. They agree on free college tuition though Clinton is only guaranteeing it for families that make under $125,000. Lastly, they both agree on tightening Wall Street regulations but differ on the specifics.</p>
 
-          <p>Second, Stein has no possibility of winning even a single state. Though she has run for president before, governor twice, and two other statewide positions, she has never won a major election. She is not polling in any state in large enough numbers to be considered a possible winner. Because her positions are so close to Clinton's, the most likely result of her campaign would be to take votes from the only other liberal in the race, undoing the very policies she advocates. We included Johnson because, though he also is unlikely to win a single state, he has won major elected office and is polling high enough in New Mexico that he has an outside (very outside) shot of stealing that state and sending the election to be decided by Republicans in the House of Representatives (making Donald Trump our next president). Furthermore, Johnson's positions differ widely from the positions of Clinton. While there are liberals considering voting for Johnson, an informed look at his position on so many progressive issues might open a few eyes.</p>
+          <p>Second, Stein has no possibility of winning even a single state. Though she has run for president before, governor twice, and two other statewide positions, she has never won a major election. She is not polling in any state in large enough numbers to be considered a possible winner. Because her positions are so close to Clinton's, the most likely result of her campaign would be to take votes from the only other liberal in the race, undoing the very policies she advocates. We included Johnson because, though he also is unlikely to win a single state, he has won major elected office and is polling high enough in New Mexico that he has an outside (very outside) shot of stealing that state and sending the election to be decided by Republicans in the House of Representatives (making Donald Trump our next president). Furthermore, Johnson's positions differ widely from the positions of Clinton. While there are liberals considering voting for Johnson, an informed look at his position on so many progressive issues might open a few eyes. And that is our purpose, to show clearly and easily how the candidates differ on issues that matter.</p>
       </div>
+      <div
+        class="fb-like"
+        data-share="true"
+        data-width="450"
+        data-show-faces="true">
+      </div>
+      <div class="fb-comments" data-href="http://areyouundecided.com/" data-width="700" data-numposts="5"></div>
     </main>
 
     <!--<aside class="sidebar" role="complementary">-->
