@@ -506,6 +506,7 @@ th {
         padding-left: 5vw; }
   .main a.lightbox {
     margin-left: 9vw;
+    font-size: 1vw;
     color: #3a5d72; }
     .main a.lightbox:hover {
       color: #963c3c; }
