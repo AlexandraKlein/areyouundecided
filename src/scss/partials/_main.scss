@@ -37,6 +37,7 @@
     }
 
     &:not(.nominees) {
+      margin-bottom: 2vw;
 
       tr {
         background-color: $base;
@@ -144,6 +145,21 @@
         line-height: 1;
         padding-left: 5vw;
       }
+    }
+  }
+
+  a.lightbox {
+    margin-left: 9vw;
+    color: $base-blue;
+
+    &:hover {
+      color: $base-red;
+    }
+  }
+
+  #lightbox {
+    p {
+      display: none;
     }
   }
 }

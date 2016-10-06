@@ -436,59 +436,61 @@ th {
     .main table.nominees td {
       margin: 1vw;
       position: relative; }
-    .main table:not(.nominees) tr {
-      background-color: #d9e5ec;
-      position: relative; }
-      .main table:not(.nominees) tr img {
-        width: 2vw;
-        margin-left: 4vw; }
-      .main table:not(.nominees) tr:nth-of-type(even) {
-        background-color: #f4f7f9; }
-    .main table:not(.nominees) th,
-    .main table:not(.nominees) td {
-      padding: 1vw 0; }
-    .main table:not(.nominees) th {
-      padding-left: 1vw; }
-    .main table:not(.nominees) td {
-      position: relative;
-      padding-left: 7vw; }
-      .main table:not(.nominees) td.citation {
-        position: relative;
-        width: 2vw;
-        padding: 0; }
-        .main table:not(.nominees) td.citation a {
-          font-family: 'fabfeltscriptbold';
-          font-size: 1.5vw;
-          text-decoration: none;
+    .main table:not(.nominees) {
+      margin-bottom: 2vw; }
+      .main table:not(.nominees) tr {
+        background-color: #d9e5ec;
+        position: relative; }
+        .main table:not(.nominees) tr img {
           width: 2vw;
-          height: 2vw;
-          line-height: 2vw;
-          color: #fff;
-          background-color: #d9e5ec;
-          border-radius: 50%;
-          position: absolute;
-          top: 50%;
-          -webkit-transform: translateY(-50%);
-          -ms-transform: translateY(-50%);
-          transform: translateY(-50%);
-          right: -4vw;
-          text-align: center; }
-          .main table:not(.nominees) td.citation a.two {
-            right: -6.3vw; }
-          .main table:not(.nominees) td.citation a span {
+          margin-left: 4vw; }
+        .main table:not(.nominees) tr:nth-of-type(even) {
+          background-color: #f4f7f9; }
+      .main table:not(.nominees) th,
+      .main table:not(.nominees) td {
+        padding: 1vw 0; }
+      .main table:not(.nominees) th {
+        padding-left: 1vw; }
+      .main table:not(.nominees) td {
+        position: relative;
+        padding-left: 7vw; }
+        .main table:not(.nominees) td.citation {
+          position: relative;
+          width: 2vw;
+          padding: 0; }
+          .main table:not(.nominees) td.citation a {
             font-family: 'fabfeltscriptbold';
-            color: #3a5d72;
-            font-size: 1.2vw;
+            font-size: 1.5vw;
+            text-decoration: none;
+            width: 2vw;
+            height: 2vw;
+            line-height: 2vw;
+            color: #fff;
+            background-color: #d9e5ec;
+            border-radius: 50%;
             position: absolute;
-            left: 50%;
-            -webkit-transform: translateX(-50%);
-            -ms-transform: translateX(-50%);
-            transform: translateX(-50%);
-            top: -1.7vw;
-            opacity: 0;
-            transition: opacity .25s; }
-          .main table:not(.nominees) td.citation a:hover span {
-            opacity: 1; }
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            right: -4vw;
+            text-align: center; }
+            .main table:not(.nominees) td.citation a.two {
+              right: -6.3vw; }
+            .main table:not(.nominees) td.citation a span {
+              font-family: 'fabfeltscriptbold';
+              color: #3a5d72;
+              font-size: 1.2vw;
+              position: absolute;
+              left: 50%;
+              -webkit-transform: translateX(-50%);
+              -ms-transform: translateX(-50%);
+              transform: translateX(-50%);
+              top: -1.7vw;
+              opacity: 0;
+              transition: opacity .25s; }
+            .main table:not(.nominees) td.citation a:hover span {
+              opacity: 1; }
     .main table img {
       width: 100%; }
     .main table tr {
@@ -502,6 +504,13 @@ th {
         width: 20vw;
         line-height: 1;
         padding-left: 5vw; }
+  .main a.lightbox {
+    margin-left: 9vw;
+    color: #3a5d72; }
+    .main a.lightbox:hover {
+      color: #963c3c; }
+  .main #lightbox p {
+    display: none; }
 
 .floating {
   animation-name: floating;
