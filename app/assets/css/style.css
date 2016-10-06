@@ -403,7 +403,8 @@ th {
   list-style: none; }
 
 .main {
-  margin: 60px 0; }
+  margin: 60px 0;
+  overflow: hidden; }
   .main section {
     display: -webkit-flex;
     display: -ms-flexbox;
